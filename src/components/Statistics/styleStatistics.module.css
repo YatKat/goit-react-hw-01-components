@@ -1,0 +1,50 @@
+.item {
+    display: flex;
+    flex-direction: column;
+  
+    width: calc((100%) / 3);
+    height: 80px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    border: 1px solid #e7ecf2;
+    background-color: #163b5f;
+  }
+  .label {
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .percentage {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .statistics {
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+  }
+  .title {
+    text-align: center;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.714;
+    padding: 10px;
+  }
+  .list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }

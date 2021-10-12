@@ -1,0 +1,22 @@
+.transactionHistory {
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+  }
+  .transactionHead {
+    background-color: #1b3b3f;
+    color: floralwhite;
+  }
+
+  .tableTr td {
+    text-align: center;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    vertical-align: top;
+  }
+  .tableTr:nth-child(odd) {
+    background: #d3d6d8;
+  }
